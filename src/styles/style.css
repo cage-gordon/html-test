@@ -35,3 +35,20 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+a {
+    color:#0a35c2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgray;
+}
+
+a:hover, a:active {
+    color: #5e56a1
+}
+
+nav {
+    color: aliceblue;
+}

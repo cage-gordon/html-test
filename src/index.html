@@ -2,20 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kyle Gordon, initial-scale=1.0">
+    <meta name="description" content="This page contains all the things I am learning about for HTML.">
     <title>Simple HTML Project</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/html5-logo-31815.png" type="image/x-icon">
 </head>
 <body>
     <header>
         <h1>Welcome to Kyle Gordon's Simple HTML Project</h1>
     </header>
+
+        <nav>
+            <ul>
+                <li><a href="#html-learning">Home</a></li>
+                <li><a href="#home-remodel">About</a></li>
+            </ul>
+        </nav>
+    <hr>
+
     <main>
-        <p>This is a simple HTML page to demonstrate the project structure.</p>
+        <section id="html-learning">
+            <h2>I'm ready to learn HTML</h2>
+                <p>This is a simple HTML page to demonstrate the project structure.</p>
+                <img src="images/html5-logo-31815.png" alt="html5 logo" title="I am learning HTML5" width="150" height="150">
+                <figure>
+                    <figcaption>
+                        An Example of HTML5 code
+                    </figcaption>
+                    <p>
+                        <code>
+                            &lt;!DOCTYPE html&gt;<br>
+                            &lt;html lang="en"&gt;<br>
+                            &nbsp;&nbsp;&lt;head&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;My HTML Page&lt;/title&gt;<br>
+                            &nbsp;&nbsp;&lt;/head&gt;<br>
+                            &nbsp;&nbsp;&lt;body&gt;<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Learning is great&lt;/h1&gt;<br>
+                            &nbsp;&nbsp;&lt;/body&gt;<br>
+                            &lt;/html&gt;
+                        </code>
+                    </p>
+                </figure>
+
+            <h3>My Daily Schedule</h3 >
+                <p>Let me tell you how</p>
+                    <ol>
+                        <li>...I learn more about dev.</li>
+                        <li>...I practice coding.</li>
+                        <li>...I plan out my schedule.</li>
+                        <li>...I use resources from the <abbr title="World Wide Web Consortium">W3C</abbr>.</li>
+                        <li>...I use resources from the 
+                            <abbr title="Mozilla Developer Network">
+                                <a href="https://developer.mozilla.org/">MDN</a>
+                            </abbr>.</li>
+                        <li>...I practice coding every day.</li>
+                    </ol>
+
+                <p>Helpful free image sites for your HTML practice</p>
+                    <ol>
+                        <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+                        <li><a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+                        <li><a href="https://gratisography.com/" target="_blank">Gratisography</a></li>
+                        <li><a href="https://pixabay.com/" target="_blank">Pixabay</a></li>
+                    </ol>
+        </section>
+
+        <hr>
+
+        <section id="home-remodel">
+            <h2>I am also planning a home remodel</h2>
+                <p>We really need to update a portion of our house.</p>
+                <figure>
+                    <img 
+                        src="images/home-remodel.jpg" 
+                        alt="Home image" 
+                        title="Home to remodel" 
+                        width="400" 
+                        height="790" 
+                        loading="lazy">
+                    <figcaption>
+                        This is a portion of the home that needs to be remodeled.
+                    </figcaption>
+                </figure>
+                <p>I've heard really good things about this company</p>
+                    <address>
+                        Gilday Renovations<br>
+                        8820 Brookville Rd<br>
+                        Silver Spring, MD 20910<br>
+                    </address>
+
+            !-- TODO: Add more places-->
+
+        </section>
     </main>
+   
     <footer>
-        <p>&copy; 2023 Simple HTML Project</p>
+        <p>&copy; <a href="about.html">2023 Simple HTML Project</a></p>
     </footer>
+
+    <a href="#">Back to top</a>
+
     <script src="scripts/script.js"></script>
 </body>
 </html>
